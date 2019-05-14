@@ -1,8 +1,8 @@
 """
-This module holds diffent algorithms to compute the CP-CLASS decomposition.
+This module holds algorithm to compute the CP-CLASS decomposition.
 """
+
 import logging
-import time
 import numpy as np
 from numpy import array, dot, ones, sqrt
 from scipy.linalg import pinv, inv
@@ -185,4 +185,3 @@ def _init(init, X, N, rank, dtype):
     #        Uinit[n] = array(rand(X.shape[n], rank), dtype=dtype)
     return Uinit
 
-# vim: set et:
