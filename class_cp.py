@@ -1,7 +1,3 @@
-"""
-This module holds algorithm to compute the CP-CLASS decomposition.
-"""
-
 import logging
 import numpy as np
 from numpy import array, dot, ones, sqrt
