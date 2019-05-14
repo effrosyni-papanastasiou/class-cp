@@ -60,7 +60,7 @@ def als(X, Yl, rank, **kwargs):
     W = ones((rank,1), dtype=dtype)
     
     l = Yl.shape[0]
-    p = 240
+    p = X.shape[1]
     D = np.zeros((l,p))
     for i in range(l):
       for j in range(l):
