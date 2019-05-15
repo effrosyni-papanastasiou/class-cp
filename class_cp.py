@@ -6,9 +6,6 @@ from numpy.random import rand
 from sktensor import *
 from sktensor.core import nvecs, norm
 from sktensor.ktensor import ktensor
-import tensorly as tl
-import tensortools as tt
-from tensortools.operations import unfold as tt_unfold, khatri_rao
 
 _log = logging.getLogger('CP')
 _DEF_MAXITER = 500
