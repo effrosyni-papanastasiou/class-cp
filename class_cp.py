@@ -84,7 +84,7 @@ def als(X, Yl, rank, **kwargs):
                 dot0 = dot(L.T, Yl)
                 Sum2 = GtvecX1 + dot0
                 vecA = dot(Sum1, Sum2)
-                Unew = np.reshape(vecA, (p, rank)
+                Unew = np.reshape(vecA, (p, rank))
             
             if itr == 0:
                 lmbda=sqrt((Unew**2).sum(axis=0))
